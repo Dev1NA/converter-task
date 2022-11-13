@@ -1,0 +1,30 @@
+.converter {
+  padding: 40px 70px;
+  background: #66cdaa;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 25px;
+}
+
+.title {
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.result {
+  color: #eef;
+  margin-top: 30px;
+  font-size: 36px;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

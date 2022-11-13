@@ -1,0 +1,33 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.group {
+    margin: 0 auto 20px;
+    display: flex;
+}
+
+input,
+select {
+    background: #3cb371;
+    border: transparent;
+    color: #ddd;
+    outline: transparent;
+    font-size: 24px;
+}
+input {
+    /* padding-left: 10px; */
+    padding: 25px;
+}
+select {
+    cursor: pointer;
+    padding: 15px;
+}
