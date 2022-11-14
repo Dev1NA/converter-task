@@ -39,7 +39,6 @@ function Converter() {
     setAmountFrom(format((amountTo * rates[currencyFrom]) / rates[currencyTo]));
     setCurrencyTo(currencyTo);
   }
-  console.log(process.env);
   useEffect(() => {
     axios
       .get(
@@ -49,11 +48,11 @@ function Converter() {
         setRates(response.data.rates);
         setEur(response.data.rates['EUR']);
         setUah(response.data.rates['UAH']);
+        setLoading(false);
       })
       .catch((error) => {
         setError(true);
       });
-    setLoading(false);
   }, []);
 
   useEffect(() => {
