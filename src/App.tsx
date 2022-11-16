@@ -1,7 +1,7 @@
 import './App.css';
-
+import React from 'react';
 import Converter from './components/Converter/Converter';
-function App() {
+const App: React.FC = () => {
   return (
     <>
       <Converter />
